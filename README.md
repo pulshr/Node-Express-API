@@ -9,3 +9,5 @@
 • PATCH: For updating an existing user by ID
 
 • DELETE: For deleting an existing user by ID
+
+Note: This API does not consists of any database.
