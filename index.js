@@ -7,9 +7,6 @@ const app = express();
 const PORT = 5000;
 
 app.use(bodyParser.json());
-
 app.use('/users',userRoutes);
-
 app.get('/',(req,res)=>{res.send("Hello from homepage")});
-
 app.listen(PORT,()=>{console.log(`Server Running on Port: http://localhost:${PORT}`);});
